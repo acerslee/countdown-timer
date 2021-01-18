@@ -13,13 +13,13 @@
 }
 
 body{
-  height:50rem;
+  height: auto;
 }
 
 #app {
   display: flex;
   align-items: center;
-  height:100%;
+  height: 50rem;
   flex-direction: column;
   justify-content: space-around;
   background-image: url("images/bg-stars.svg");
@@ -72,8 +72,33 @@ body{
 }
 
 /* mobile view */
-@media screen and (max-width: 375px){
-  #app{
+@media screen and (max-width: 500px){
+  /* #app{
     width: 30%;
+  } */
+
+  #heading{
+    font-size: 2rem;
+  }
+
+  #launch-date{
+    font-size: 1rem;
+    margin-bottom: -10rem;
+  }
+
+  #countdown{
+    display:grid;
+    grid-template-columns: repeat(4, 4rem);
+    grid-auto-rows: minmax(6rem, auto);
+    grid-gap: 30px;
+  }
+
+  .counter{
+    font-size: 1.5rem;
+    padding: 1rem 0 1rem 0;
+
+  }
+  .text{
+    font-size: 0.5rem;
   }
 }

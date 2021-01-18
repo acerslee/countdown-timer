@@ -1,3 +1,4 @@
+/*general */
 *{
   margin: 0 auto 0 auto;
   padding: 0;
@@ -9,7 +10,7 @@
 }
 
 #heading, #launch-date, .text{
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 body{
@@ -26,16 +27,17 @@ body{
   background-size:cover;
 }
 
+/*heading */
 #heading, #launch-date{
   color: white;
   margin-bottom: -7rem;
-
 }
 
 #launch-date{
   margin-top:-5rem;
 }
 
+/*countdown section */
 #countdown{
   display:grid;
   grid-template-columns: repeat(4, 8rem);
@@ -71,14 +73,10 @@ body{
   cursor: pointer;
 }
 
-/* mobile view */
+/****** mobile view ******/
 @media screen and (max-width: 500px){
-  /* #app{
-    width: 30%;
-  } */
-
   #heading{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   #launch-date{
@@ -88,9 +86,9 @@ body{
 
   #countdown{
     display:grid;
-    grid-template-columns: repeat(4, 5rem);
+    grid-template-columns: repeat(4, 6rem);
     grid-auto-rows: minmax(6rem, auto);
-    grid-gap: 2rem;
+    grid-gap: 1.8rem;
   }
 
   .counter{

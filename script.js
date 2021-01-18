@@ -23,6 +23,3 @@ var interval = setInterval(function() {
     document.getElementById("seconds").innerHTML = '';
   }
 }, 1000);
-
-
-

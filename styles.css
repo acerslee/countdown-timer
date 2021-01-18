@@ -1,12 +1,17 @@
 *{
   margin: 0 auto 0 auto;
   padding: 0;
+  background-color: hsl(236, 21%, 26%)
   /* background-image: url("images/pattern-hills.svg"), url("images/bg-stars.svg");
   background-repeat: no-repeat; */
 }
 
-#heading, .counter, .text{
+#heading, #launch-date, .counter, .text{
   font-family: 'Red Hat Text', sans-serif;
+}
+
+#heading, .text{
+  letter-spacing: 2px;
 }
 
 #app {
@@ -15,6 +20,10 @@
   flex-direction: column;
   justify-content: space-around;
   height:50rem;
+}
+
+#heading{
+  color: white;
 }
 
 #countdown{
@@ -27,14 +36,14 @@
 .counter-box{
   text-align: center;
   width: 100%;
+  /* padding:3rem; */
 }
 
 .counter{
   color: hsl(345, 95%, 68%);
   border: 2px solid;
-  padding: 3rem;
-  font-size:2.5rem;
-  text-align:center;
+  padding: 2rem 0 2rem 0;
+  font-size:2.7rem;
   /* margin: 0 auto 0 auto; */
 }
 

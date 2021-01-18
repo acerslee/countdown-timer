@@ -1,25 +1,29 @@
 *{
   margin: 0 auto 0 auto;
   padding: 0;
-  background-color: hsl(236, 21%, 26%)
-  /* background-image: url("images/pattern-hills.svg"), url("images/bg-stars.svg");
-  background-repeat: no-repeat; */
+  background-color: hsl(236, 21%, 26%);
 }
 
 #heading, #launch-date, .counter, .text{
   font-family: 'Red Hat Text', sans-serif;
 }
 
-#heading, .text{
+#heading, #launch-date, .text{
   letter-spacing: 2px;
+}
+
+body{
+  height:50rem;
 }
 
 #app {
   display: flex;
   align-items: center;
+  height:100%;
   flex-direction: column;
   justify-content: space-around;
-  height:50rem;
+  background-image: url("images/bg-stars.svg");
+  background-size:cover;
 }
 
 #heading, #launch-date{
@@ -42,15 +46,13 @@
 .counter-box{
   text-align: center;
   width: 100%;
-  /* padding:3rem; */
 }
 
 .counter{
   color: hsl(345, 95%, 68%);
   border: 2px solid;
   padding: 2rem 0 2rem 0;
-  font-size:2.7rem;
-  /* margin: 0 auto 0 auto; */
+  font-size: 3rem;
 }
 
 .text{
@@ -67,4 +69,11 @@
 
 .socials:hover{
   cursor: pointer;
+}
+
+/* mobile view */
+@media screen and (max-width: 375px){
+  #app{
+    width: 30%;
+  }
 }

@@ -1,0 +1,14 @@
+*{
+  margin: 0 auto 0 auto;
+  padding: 0;
+  /* background-image: url("images/pattern-hills.svg"), url("images/bg-stars.svg");
+  background-repeat: no-repeat; */
+}
+
+#app {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

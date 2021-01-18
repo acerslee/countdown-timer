@@ -5,27 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Launch countdown timer</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href = "styles.css">
+  <title>Countdown Timer</title>
 </head>
 <body>
 
-  We're launching soon
+ <div id = "app">
 
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <h2 id = "heading">WE'RE LAUNCHING SOON</h2>
+
+   <div id = "countdown">
+      <div class = "counter-box">
+        <h1 id = "days" class = "counter"></h1>
+        <h3 id = "days-text" class = "text">DAYS</h3>
+      </div>
+      <div class = "counter-box">
+        <h1 id = "hours" class = "counter"></h1>
+        <h3 id = "hours-text" class = "text">HOURS</h3>
+      </div>
+      <div class = "counter-box">
+        <h1 id = "minutes" class = "counter"></h1>
+        <h3 id = "minutes-text" class = "text">MINUTES</h3>
+      </div>
+      <div class = "counter-box">
+        <h1 id = "seconds" class = "counter"></h1>
+        <h3 id = "seconds-text" class = "text">SECONDS</h3>
+      </div>
+    </div>
+
+  <div id = "social media">
+    <!-- PUT MEDIA ICONS HERE-->
   </div>
+
+</div>
+
+
+
+
+  <script src = "script.js"></script>
 </body>
 </html>

@@ -22,8 +22,14 @@
   height:50rem;
 }
 
-#heading{
+#heading, #launch-date{
   color: white;
+  margin-bottom: -7rem;
+
+}
+
+#launch-date{
+  margin-top:-5rem;
 }
 
 #countdown{
@@ -57,4 +63,8 @@
   display: flex;
   justify-content: space-between;
   width: 25%;
+}
+
+.socials:hover{
+  cursor: pointer;
 }

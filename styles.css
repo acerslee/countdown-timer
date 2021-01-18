@@ -40,7 +40,7 @@ body{
   display:grid;
   grid-template-columns: repeat(4, 8rem);
   grid-auto-rows: minmax(12rem, auto);
-  grid-gap: 25px;
+  grid-gap: 2.6rem;
 }
 
 .counter-box{
@@ -88,17 +88,26 @@ body{
 
   #countdown{
     display:grid;
-    grid-template-columns: repeat(4, 4rem);
+    grid-template-columns: repeat(4, 5rem);
     grid-auto-rows: minmax(6rem, auto);
-    grid-gap: 30px;
+    grid-gap: 2rem;
   }
 
   .counter{
-    font-size: 1.5rem;
-    padding: 1rem 0 1rem 0;
-
+    font-size: 1.7rem;
+    padding: 1.4rem 0 1.4rem 0;
   }
+
   .text{
     font-size: 0.5rem;
+  }
+
+  #social-media{
+    width: 50%;
+  }
+
+  .socials{
+    width: 2rem;
+    height: 2rem;
   }
 }
